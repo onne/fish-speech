@@ -13,7 +13,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-    "numpy",
+    "numpy<=1.26.4",
     "transformers>=4.45.2",
     "datasets==2.18.0",
     "lightning>=2.1.0",
@@ -22,7 +22,6 @@ dependencies = [
     "natsort>=8.4.0",
     "einops>=0.7.0",
     "librosa>=0.10.1",
-    "soundfile",
     "rich>=13.5.3",
     "gradio>5.0.0",
     "wandb>=0.15.11",
@@ -36,6 +35,7 @@ dependencies = [
     "einx[torch]==0.2.2",
     "zstandard>=0.22.0",
     "pydub",
+    "pyaudio",
     "modelscope==1.17.1",
     "opencc-python-reimplemented==0.1.7",
     "silero-vad",
